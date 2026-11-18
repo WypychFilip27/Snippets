@@ -1,0 +1,1 @@
+powershell -NoProfile -Command "$s=(New-Object -COM WScript.Shell).CreateShortcut('C:\AzureLearn.lnk'); $s.TargetPath='cmd.exe'; $s.Arguments='/c \"C:\VsRunLearnDirectory.bat\"'; $s.IconLocation='C:\azure_icon_146223.ico'; $s.WindowStyle=7; $s.Save()"
